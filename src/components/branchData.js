@@ -23,11 +23,11 @@ export const branches = [
     ],
     image: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800',
     gallery: [
-       'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=800'
     ]
   },
   {
@@ -52,11 +52,11 @@ export const branches = [
     ],
     image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=2070',
     gallery: [
-       'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1616594039964-40891a909733?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1616594039964-40891a909733?auto=format&fit=crop&q=80&w=800'
     ]
   },
   {
@@ -79,13 +79,13 @@ export const branches = [
       { icon: Wifi, label: "High Speed WiFi" },
       { icon: ShieldCheck, label: "24/7 Security" }
     ],
-    image: 'https://images.unsplash.com/photo-1505693436371-52665a0100e7?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
     gallery: [
-       'https://images.unsplash.com/photo-1505693436371-52665a0100e7?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1522771753035-4850d355d242?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1560185007-c5ca9d2c0141?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1505693436371-52665a0100e7?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1522771753035-4850d355d242?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1560185007-c5ca9d2c0141?auto=format&fit=crop&q=80&w=800'
     ]
   },
   {
@@ -108,13 +108,13 @@ export const branches = [
       { icon: Zap, label: "Power Backup" },
       { icon: Utensils, label: "Premium Dining" }
     ],
-    image: 'https://images.unsplash.com/photo-1522771753035-4850d355d242?auto=format&fit=crop&q=80&w=2070',
+    image: 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=2070',
     gallery: [
-       'https://images.unsplash.com/photo-1522771753035-4850d355d242?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1505693436371-52665a0100e7?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1522771753035-4850d355d242?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1505693436371-52665a0100e7?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800'
     ]
   },
   {
@@ -139,11 +139,11 @@ export const branches = [
     ],
     image: 'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=2070',
     gallery: [
-       'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1505693436371-52665a0100e7?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1522771753035-4850d355d242?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1505693436371-52665a0100e7?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1522771753035-4850d355d242?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800'
     ]
   },
   {
@@ -167,70 +167,70 @@ export const branches = [
     ],
     image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=2070',
     gallery: [
-       'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1616594039964-40891a909733?auto=format&fit=crop&q=80&w=800',
-       'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1616594039964-40891a909733?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=800'
     ]
   },
 ];
 
 export const amenitiesList = [
-  { 
-    icon: Coffee, 
-    name: "Unlimited Fooding Menu", 
-    description: "Hygienic and delicious meals served throughout the day with unlimited food options.", 
+  {
+    icon: Coffee,
+    name: "Unlimited Fooding Menu",
+    description: "Hygienic and delicious meals served throughout the day with unlimited food options.",
     images: [
       'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Star, 
-    name: "Luxury Bedding", 
-    description: "Premium mattresses and bedding for your ultimate comfort and restful sleep.", 
+  {
+    icon: Star,
+    name: "Luxury Bedding",
+    description: "Premium mattresses and bedding for your ultimate comfort and restful sleep.",
     images: [
       'https://images.unsplash.com/photo-1631049307255-81fb7c1e71b1?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Home, 
-    name: "Attached Bathroom", 
-    description: "Private and clean attached bathrooms in every room.", 
+  {
+    icon: Home,
+    name: "Attached Bathroom",
+    description: "Private and clean attached bathrooms in every room.",
     images: [
       'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1631889992176-3a8c2d5c6d8b?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: CircleDot, 
-    name: "AC Facility", 
-    description: "Climate controlled air-conditioned rooms for all seasons.", 
+  {
+    icon: CircleDot,
+    name: "AC Facility",
+    description: "Climate controlled air-conditioned rooms for all seasons.",
     images: [
       'https://images.unsplash.com/photo-1635840667813-e0ea3e99d22f?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Menu, 
-    name: "Gym Facilities", 
-    description: "State-of-the-art gym equipment for fitness enthusiasts.", 
+  {
+    icon: Menu,
+    name: "Gym Facilities",
+    description: "State-of-the-art gym equipment for fitness enthusiasts.",
     images: [
       'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Waves, 
-    name: "Swimming Pool", 
-    description: "Refreshing swimming pool for relaxation and exercise.", 
+  {
+    icon: Waves,
+    name: "Swimming Pool",
+    description: "Refreshing swimming pool for relaxation and exercise.",
     images: [
       'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1582735689369-4fe989d85686?auto=format&fit=crop&q=80&w=800',
@@ -238,90 +238,90 @@ export const amenitiesList = [
       'https://images.unsplash.com/photo-1551524164-6cf77f5e1cfc?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Phone, 
-    name: "24 HR Security Guard", 
-    description: "Round the clock security guards and CCTV surveillance for your safety.", 
+  {
+    icon: Phone,
+    name: "24 HR Security Guard",
+    description: "Round the clock security guards and CCTV surveillance for your safety.",
     images: [
       'https://images.unsplash.com/photo-1603350683444-a4d43de20b91?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Star, 
-    name: "Library and Study Room", 
-    description: "Dedicated quiet spaces for studying and reading.", 
+  {
+    icon: Star,
+    name: "Library and Study Room",
+    description: "Dedicated quiet spaces for studying and reading.",
     images: [
       'https://images.unsplash.com/photo-1521587760476-9c060e7f31a3?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: CircleDot, 
-    name: "Dedicated Internet", 
-    description: "High-speed WiFi connectivity throughout the facility.", 
+  {
+    icon: CircleDot,
+    name: "Dedicated Internet",
+    description: "High-speed WiFi connectivity throughout the facility.",
     images: [
       'https://images.unsplash.com/photo-1544197150-c04f3095eee4?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Home, 
-    name: "Customer Privacy", 
-    description: "Your privacy is our priority with secure and private living spaces.", 
+  {
+    icon: Home,
+    name: "Customer Privacy",
+    description: "Your privacy is our priority with secure and private living spaces.",
     images: [
       'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Coffee, 
-    name: "Room Service Per Day", 
-    description: "Daily housekeeping and room cleaning services.", 
+  {
+    icon: Coffee,
+    name: "Room Service Per Day",
+    description: "Daily housekeeping and room cleaning services.",
     images: [
       'https://images.unsplash.com/photo-1581578731449-6eea6c0c7f2c?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1631889992176-3a2c5d5c6d8b?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Menu, 
-    name: "Digital Check In Check Out System", 
-    description: "Hassle-free digital check-in and check-out process.", 
+  {
+    icon: Menu,
+    name: "Digital Check In Check Out System",
+    description: "Hassle-free digital check-in and check-out process.",
     images: [
       'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Star, 
-    name: "Unlimited Laundry Facilities", 
-    description: "Free unlimited laundry services for all residents.", 
+  {
+    icon: Star,
+    name: "Unlimited Laundry Facilities",
+    description: "Free unlimited laundry services for all residents.",
     images: [
       'https://images.unsplash.com/photo-1582735689369-4fe989d85686?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: CircleDot, 
-    name: "Daily Games for Hangout", 
-    description: "Indoor and outdoor games for recreation and socializing.", 
+  {
+    icon: CircleDot,
+    name: "Daily Games for Hangout",
+    description: "Indoor and outdoor games for recreation and socializing.",
     images: [
       'https://images.unsplash.com/photo-1511882150382-421b66e3a8e9?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800'
     ]
   },
-  { 
-    icon: Phone, 
-    name: "Parking Facilities", 
-    description: "Secure parking spaces available for residents.", 
+  {
+    icon: Phone,
+    name: "Parking Facilities",
+    description: "Secure parking spaces available for residents.",
     images: [
       'https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800',

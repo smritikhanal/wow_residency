@@ -13,6 +13,7 @@ const Amenities = lazy(() => import('./pages/Amenities.jsx'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Sitemap = lazy(() => import('./pages/Sitemap.jsx'));
 const Reviews = lazy(() => import('./pages/Reviews.jsx'));
+const LeaveReview = lazy(() => import('./pages/LeaveReview.jsx'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -55,6 +56,7 @@ function App() {
             <Route path="/Contact" element={<PageTransition><Contact /></PageTransition>} />
             <Route path="/Sitemap" element={<PageTransition><Sitemap /></PageTransition>} />
             <Route path="/Reviews" element={<PageTransition><Reviews /></PageTransition>} />
+            <Route path="/leave-review" element={<PageTransition><LeaveReview /></PageTransition>} />
           </Routes>
         </AnimatePresence>
       </Suspense>

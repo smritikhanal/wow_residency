@@ -15,16 +15,16 @@ export default function Branches() {
 
   const filteredBranches = branches.filter(branch => {
     const matchesLocation = filterLocation === 'All' || branch.location.includes(filterLocation);
-    const matchesSearch = branch.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          branch.amenities?.some(a => a.label.toLowerCase().includes(searchQuery.toLowerCase()));
+    const matchesSearch = branch.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      branch.amenities?.some(a => a.label.toLowerCase().includes(searchQuery.toLowerCase()));
     return matchesLocation && matchesSearch;
   });
 
   return (
-    <div className="bg-slate-50 min-h-screen pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-20">
-      <SEO 
-        title="Our Locations" 
-        description="Explore our 6 premium hostel branches across Kathmandu and Lalitpur including Koteshwor, Baneshwor, and more." 
+    <div className="bg-slate-50 min-h-screen pt-8 sm:pt-10 md:pt-12 pb-12 sm:pb-20">
+      <SEO
+        title="Our Locations"
+        description="Explore our 6 premium hostel branches across Kathmandu and Lalitpur including Koteshwor, Baneshwor, and more."
       />
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-8 sm:mb-12">
@@ -41,7 +41,7 @@ export default function Branches() {
         <div className="max-w-4xl mx-auto mb-8 sm:mb-12 bg-white p-3 sm:p-4 rounded-2xl shadow-sm border border-slate-100 flex flex-col md:flex-row gap-3 sm:gap-4 items-center">
           <div className="relative w-full md:w-1/2">
             <Search className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
-            <input 
+            <input
               type="text"
               placeholder="Search by branch name..."
               className="w-full pl-10 sm:pl-12 pr-3 sm:pr-4 py-2.5 sm:py-3 rounded-xl bg-slate-50 border-none focus:ring-2 focus:ring-blue-500/20 text-slate-900 text-sm sm:text-base"
@@ -54,11 +54,10 @@ export default function Branches() {
               <button
                 key={loc}
                 onClick={() => setFilterLocation(loc)}
-                className={`px-6 py-3 rounded-xl font-medium whitespace-nowrap transition-all ${
-                  filterLocation === loc 
-                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30' 
-                    : 'bg-slate-50 text-slate-600 hover:bg-slate-100'
-                }`}
+                className={`px-6 py-3 rounded-xl font-medium whitespace-nowrap transition-all ${filterLocation === loc
+                  ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30'
+                  : 'bg-slate-50 text-slate-600 hover:bg-slate-100'
+                  }`}
               >
                 {loc}
               </button>
@@ -66,10 +65,10 @@ export default function Branches() {
           </div>
         </div>
 
-          {/* All Branches Google Map */}
-          <div className="w-full h-[400px] rounded-2xl overflow-hidden border border-slate-200 shadow-lg mb-16">
-            <GoogleMapBranches />
-          </div>
+        {/* All Branches Google Map */}
+        <div className="w-full h-[400px] rounded-2xl overflow-hidden border border-slate-200 shadow-lg mb-16">
+          <GoogleMapBranches />
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <AnimatePresence>
@@ -86,10 +85,13 @@ export default function Branches() {
                 >
                   <div>
                     <div className="relative h-64 overflow-hidden">
-                      <img 
-                        src={branch.image} 
-                        alt={branch.name} 
+                      <img
+                        src={branch.image}
+                        alt={branch.name}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        onError={(e) => {
+                          e.target.src = 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800';
+                        }}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                         <span className="text-white font-medium">View Details</span>
@@ -123,8 +125,8 @@ export default function Branches() {
             ) : (
               <div className="col-span-full text-center py-20 text-slate-500">
                 <p className="text-xl">No branches found matching your criteria.</p>
-                <button 
-                  onClick={() => {setFilterLocation('All'); setSearchQuery('');}}
+                <button
+                  onClick={() => { setFilterLocation('All'); setSearchQuery(''); }}
                   className="mt-4 text-blue-600 font-medium hover:underline"
                 >
                   Clear filters

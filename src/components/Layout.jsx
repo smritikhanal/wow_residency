@@ -23,54 +23,42 @@ export default function Layout({ children }) {
                 alt="WOW Residency"
                 className="h-10 sm:h-12 md:h-14 w-auto"
               />
-              <h2
-                className="text-xl sm:text-2xl md:text-3xl font-bold tracking-[0.06em]"
-                style={{ fontFamily: "'Bebas Neue', sans-serif" }}
-              >
-                <span className="text-blue-700">WOW</span>{" "}
-                <span className="text-red-600">RESIDENCY</span>
-              </h2>
             </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
               <Link
                 to="/"
-                className={`hover:text-blue-400 transition-colors font-medium ${
-                  isActive("/") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors font-medium ${isActive("/") ? "text-blue-400" : ""
+                  }`}
               >
                 Home
               </Link>
               <Link
                 to="/Branches"
-                className={`hover:text-blue-400 transition-colors font-medium ${
-                  isActive("/Branches") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors font-medium ${isActive("/Branches") || location.pathname === "/BranchDetail" ? "text-blue-400" : ""
+                  }`}
               >
                 Branches
               </Link>
               <Link
                 to="/Rooms"
-                className={`hover:text-blue-400 transition-colors font-medium ${
-                  isActive("/Rooms") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors font-medium ${isActive("/Rooms") ? "text-blue-400" : ""
+                  }`}
               >
                 Rooms
               </Link>
               <Link
                 to="/Amenities"
-                className={`hover:text-blue-400 transition-colors font-medium ${
-                  isActive("/Amenities") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors font-medium ${isActive("/Amenities") ? "text-blue-400" : ""
+                  }`}
               >
                 Amenities
               </Link>
               <Link
                 to="/Reviews"
-                className={`hover:text-blue-400 transition-colors font-medium ${
-                  isActive("/Reviews") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors font-medium ${isActive("/Reviews") || location.pathname === "/leave-review" ? "text-blue-400" : ""
+                  }`}
               >
                 Reviews
               </Link>
@@ -97,45 +85,40 @@ export default function Layout({ children }) {
               <Link
                 to="/"
                 onClick={() => setMobileMenuOpen(false)}
-                className={`hover:text-blue-400 transition-colors ${
-                  isActive("/") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors ${isActive("/") ? "text-blue-400" : ""
+                  }`}
               >
                 Home
               </Link>
               <Link
                 to="/Branches"
                 onClick={() => setMobileMenuOpen(false)}
-                className={`hover:text-blue-400 transition-colors ${
-                  isActive("/Branches") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors ${isActive("/Branches") || location.pathname === "/BranchDetail" ? "text-blue-400" : ""
+                  }`}
               >
                 Branches
               </Link>
               <Link
                 to="/Rooms"
                 onClick={() => setMobileMenuOpen(false)}
-                className={`hover:text-blue-400 transition-colors ${
-                  isActive("/Rooms") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors ${isActive("/Rooms") ? "text-blue-400" : ""
+                  }`}
               >
                 Rooms
               </Link>
               <Link
                 to="/Amenities"
                 onClick={() => setMobileMenuOpen(false)}
-                className={`hover:text-blue-400 transition-colors ${
-                  isActive("/Amenities") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors ${isActive("/Amenities") ? "text-blue-400" : ""
+                  }`}
               >
                 Amenities
               </Link>
               <Link
                 to="/Reviews"
                 onClick={() => setMobileMenuOpen(false)}
-                className={`hover:text-blue-400 transition-colors ${
-                  isActive("/Reviews") ? "text-blue-400" : ""
-                }`}
+                className={`hover:text-blue-400 transition-colors ${isActive("/Reviews") || location.pathname === "/leave-review" ? "text-blue-400" : ""
+                  }`}
               >
                 Reviews
               </Link>
@@ -162,19 +145,10 @@ export default function Layout({ children }) {
             <div className="sm:col-span-2 md:col-span-1">
               <div className="flex items-center gap-3 hover:opacity-90 transition-opacity mb-4">
                 <img
-                  src="/favicon.ico"
+                  src="/logo.png"
                   alt="WOW Residency"
                   className="h-10 sm:h-12 md:h-14 w-auto"
                 />
-                <h2
-                  className="text-xl sm:text-2xl md:text-3xl font-bold tracking-[0.06em]"
-                  style={{
-                    fontFamily: "'Bebas Neue', sans-serif",
-                  }}
-                >
-                  <span className="text-blue-700">WOW</span>{" "}
-                  <span className="text-red-600">RESIDENCY</span>
-                </h2>
               </div>
               <p className="text-slate-400 text-sm leading-relaxed">
                 Premium hostel accommodation for students and professionals
@@ -229,12 +203,22 @@ export default function Layout({ children }) {
             <div>
               <h4 className="font-bold text-lg mb-4">Our Locations</h4>
               <div className="flex flex-col gap-2 text-sm text-slate-400">
-                <span>Koteshwor, Kathmandu</span>
-                <span>Satdobato, Lalitpur</span>
-                <span>Jhamsikhel, Lalitpur</span>
-                <span>Tinkune, Kathmandu</span>
-                <span>Baneshwor, Kathmandu</span>
-                <span>Thapathali, Kathmandu</span>
+                {[
+                  { name: 'Koteshwor', id: 'koteshwor' },
+                  { name: 'Satdobato', id: 'satdobato' },
+                  { name: 'Jhamsikhel', id: 'jhamsikhel' },
+                  { name: 'Tinkune', id: 'tinkune' },
+                  { name: 'Baneshwor', id: 'baneshwor' },
+                  { name: 'Thapathali', id: 'thapathali' }
+                ].map((branch) => (
+                  <Link
+                    key={branch.id}
+                    to={`/BranchDetail?id=${branch.id}`}
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    {branch.name} Branch
+                  </Link>
+                ))}
               </div>
             </div>
 
@@ -242,18 +226,18 @@ export default function Layout({ children }) {
             <div>
               <h4 className="font-bold text-lg mb-4">Contact Us</h4>
               <div className="flex flex-col gap-3">
-                <div className="flex items-center gap-2 text-slate-400 text-sm">
+                <a href="tel:+9779851414556" className="flex items-center gap-2 text-slate-400 text-sm hover:text-blue-400 transition-colors">
                   <Phone size={16} className="text-blue-400" />
                   <span>+977 985-1414556</span>
-                </div>
-                <div className="flex items-center gap-2 text-slate-400 text-sm">
+                </a>
+                <a href="tel:015445920" className="flex items-center gap-2 text-slate-400 text-sm hover:text-blue-400 transition-colors">
                   <Phone size={16} className="text-blue-400" />
                   <span>01-5445920</span>
-                </div>
-                <div className="flex items-center gap-2 text-slate-400 text-sm">
+                </a>
+                <a href="mailto:info@wowresidency.com" className="flex items-center gap-2 text-slate-400 text-sm hover:text-blue-400 transition-colors">
                   <Mail size={16} className="text-blue-400" />
                   <span>info@wowresidency.com</span>
-                </div>
+                </a>
                 <div className="flex items-start gap-2 text-slate-400 text-sm">
                   <MapPin
                     size={16}

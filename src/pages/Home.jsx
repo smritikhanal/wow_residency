@@ -16,9 +16,9 @@ import SEO from "@/components/SEO";
 export default function Home() {
   return (
     <div className="bg-slate-50">
-      <SEO 
-        title="Home" 
-        description="Welcome to WOW Residency - The best premium hostels in Kathmandu and Lalitpur with luxury amenities, 24/7 security, and unlimited food." 
+      <SEO
+        title="Home"
+        description="Welcome to WOW Residency - The best premium hostels in Kathmandu and Lalitpur with luxury amenities, 24/7 security, and unlimited food."
       />
       {/* Hero Section */}
       <section className="relative h-screen min-h-[500px] sm:min-h-[600px] flex items-center overflow-hidden">
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-red-500 rounded-full blur-3xl"></div>
         </div>
-        
+
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center">
             <span className="text-blue-600 font-semibold tracking-widest uppercase text-sm">
@@ -135,7 +135,7 @@ export default function Home() {
               {
                 name: "Single Deluxe",
                 desc: "Private room with premium bedding",
-                image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800",
+                image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=800",
                 gradient: "from-blue-500 to-blue-600",
               },
               {
@@ -147,25 +147,25 @@ export default function Home() {
               {
                 name: "Triple Deluxe",
                 desc: "Spacious living for three",
-                image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800",
+                image: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&q=80&w=800",
                 gradient: "from-purple-500 to-purple-600",
               },
               {
                 name: "Attached Luxury (2 Bed)",
                 desc: "Two sharing with attached bathroom",
-                image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800",
+                image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800",
                 gradient: "from-red-500 to-red-600",
               },
               {
                 name: "Attached Luxury (3 Bed)",
                 desc: "Three sharing with attached bathroom",
-                image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800",
+                image: "https://images.unsplash.com/photo-1505691938895-1758d7bab58d?auto=format&fit=crop&q=80&w=800",
                 gradient: "from-orange-500 to-orange-600",
               },
               {
                 name: "AC Luxury (3 Bed)",
                 desc: "Climate controlled three sharing",
-                image: "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?auto=format&fit=crop&q=80&w=800",
+                image: "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&q=80&w=800",
                 gradient: "from-teal-500 to-teal-600",
               },
             ].map((room, idx) => (
@@ -179,16 +179,19 @@ export default function Home() {
               >
                 {/* Image */}
                 <div className="relative h-64 overflow-hidden">
-                  <img 
-                    src={room.image} 
+                  <img
+                    src={room.image}
                     alt={room.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    onError={(e) => {
+                      e.target.src = 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800';
+                    }}
                   />
                   <div className={`absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/20 to-transparent`}></div>
                   {/* Gradient accent */}
                   <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${room.gradient} opacity-20 blur-2xl`}></div>
                 </div>
-                
+
                 {/* Content */}
                 <div className="p-6">
                   <h3 className="font-bold text-slate-900 text-xl mb-2 group-hover:text-slate-800 transition-colors">
@@ -238,17 +241,17 @@ export default function Home() {
               {
                 title: "Affordable Premium Comfort",
                 desc: "Luxury bedding and AC facilities ensures you get the rest you deserve.",
-                image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800",
+                image: "https://images.unsplash.com/photo-1445991842772-097fea258e7b?auto=format&fit=crop&q=80&w=800",
               },
               {
                 title: "Safe & Secure",
                 desc: "24/7 security guards and digital check-in/out systems for your peace of mind.",
-                image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800",
+                image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=800",
               },
               {
                 title: "Modern Living",
                 desc: "Dedicated high-speed internet, gym, library, and laundry services included.",
-                image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800",
+                image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
               },
             ].map((item, idx) => (
               <motion.div
@@ -267,7 +270,7 @@ export default function Home() {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     onError={(e) => {
                       // Fallback if image fails to load
-                      e.target.style.display = 'none';
+                      e.target.src = 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800';
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 via-transparent to-transparent"></div>
@@ -324,7 +327,7 @@ export default function Home() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     onError={(e) => {
                       // Fallback if image fails to load
-                      e.target.style.display = 'none';
+                      e.target.src = 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800';
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/30 to-transparent" />

@@ -81,12 +81,12 @@ export default function Rooms() {
   ];
 
   return (
-    <div className="bg-slate-50 min-h-screen pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-20">
-      <SEO 
-        title="Room Types & Accommodation" 
-        description="Explore our range of accommodation options from Single Deluxe to AC Luxury rooms. Find the perfect space for your stay at WOW Residency." 
+    <div className="bg-slate-50 min-h-screen pt-8 sm:pt-10 md:pt-12 pb-12 sm:pb-20">
+      <SEO
+        title="Room Types & Accommodation"
+        description="Explore our range of accommodation options from Single Deluxe to AC Luxury rooms. Find the perfect space for your stay at WOW Residency."
       />
-      
+
       <div className="container mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center mb-10 sm:mb-16">
@@ -109,20 +109,19 @@ export default function Rooms() {
             >
               {/* Image */}
               <div className="relative h-56 overflow-hidden">
-                <img 
-                  src={room.image} 
-                  alt={room.name} 
+                <img
+                  src={room.image}
+                  alt={room.name}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute top-4 right-4">
                   <span
-                    className={`bg-gradient-to-r ${
-                      room.category === 'Premium' || room.category === 'Premium Luxury'
+                    className={`bg-gradient-to-r ${room.category === 'Premium' || room.category === 'Premium Luxury'
                         ? 'from-amber-400 to-orange-500'
                         : room.category === 'Standard'
-                        ? 'from-blue-400 to-indigo-500'
-                        : 'from-purple-400 to-pink-500'
-                    } text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg`}
+                          ? 'from-blue-400 to-indigo-500'
+                          : 'from-purple-400 to-pink-500'
+                      } text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg`}
                   >
                     {room.category}
                   </span>
