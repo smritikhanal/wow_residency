@@ -19,7 +19,7 @@ export default function Layout({ children }) {
               className="flex items-center gap-3 hover:opacity-90 transition-opacity"
             >
               <img
-                src="/favicon.ico"
+                src="/logo.png"
                 alt="WOW Residency"
                 className="h-10 sm:h-12 md:h-14 w-auto"
               />
