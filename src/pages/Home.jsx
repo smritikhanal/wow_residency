@@ -38,8 +38,8 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="max-w-2xl"
           >
-            <div className="inline-block px-3 sm:px-4 py-1 mb-4 sm:mb-6 border border-blue-500/50 rounded-full bg-slate-900/50 backdrop-blur-sm">
-              <span className="text-blue-400 text-xs sm:text-sm font-medium tracking-wider uppercase">
+            <div className="inline-block px-3 sm:px-4 py-1 mb-4 sm:mb-6 border border-red-500/50 rounded-full bg-red-100/80 backdrop-blur-sm">
+              <span className="text-red-500 text-xs sm:text-sm font-medium tracking-wider uppercase">
                 Booking Open Now
               </span>
             </div>

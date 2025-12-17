@@ -98,8 +98,8 @@ export default function Testimonials() {
                     <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mx-auto flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-blue-500/30 mb-4 border-2 border-white/20">
                       {(testimonials[current].author_name || testimonials[current].name).charAt(0)}
                     </div>
-                    <h4 className="text-xl font-bold text-slate-900">{testimonials[current].author_name || testimonials[current].name}</h4>
-                    <p className="text-slate-900 text-sm uppercase tracking-wide mt-1 font-semibold">{testimonials[current].role}</p>
+                    <h4 className="text-xl font-bold text-white">{testimonials[current].author_name || testimonials[current].name}</h4>
+                    <p className="text-white text-sm uppercase tracking-wide mt-1 font-semibold">{testimonials[current].role}</p>
                   </div>
                 </motion.div>
               </AnimatePresence>
@@ -107,8 +107,8 @@ export default function Testimonials() {
 
             {/* Controls */}
             <div className="flex justify-center gap-4 mt-12">
-              <button onClick={prev} className="p-3 rounded-full border border-white/30 bg-white/10 backdrop-blur-sm hover:bg-red-500 hover:border-red-500 hover:text-white text-slate-900 transition-all">
-                <ChevronLeft size={24} />
+              <button onClick={prev} className="p-3 rounded-full border border-white/30 bg-white/10 backdrop-blur-sm hover:bg-red-500 hover:border-red-500 hover:text-white text-white transition-all">
+                <ChevronLeft size={24} color="white" />
               </button>
               <div className="flex items-center gap-2">
                 {testimonials.map((_, idx) => (
@@ -120,8 +120,8 @@ export default function Testimonials() {
                   />
                 ))}
               </div>
-              <button onClick={next} className="p-3 rounded-full border border-white/30 bg-white/10 backdrop-blur-sm hover:bg-red-500 hover:border-red-500 hover:text-white text-slate-900 transition-all">
-                <ChevronRight size={24} />
+              <button onClick={next} className="p-3 rounded-full border border-white/30 bg-white/10 backdrop-blur-sm hover:bg-red-500 hover:border-red-500 hover:text-white text-white transition-all">
+                <ChevronRight size={24} color="white" />
               </button>
             </div>
           </div>

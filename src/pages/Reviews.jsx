@@ -163,8 +163,8 @@ export default function Reviews() {
           transition={{ delay: 0.8, duration: 0.5 }}
           className="text-center mt-16"
         >
-          <div className="inline-block backdrop-blur-xl bg-white/10 px-8 py-6 rounded-2xl border border-white/20">
-            <p className="text-white/80 mb-4 text-lg">Want to share your experience?</p>
+          <div className="w-full bg-white px-8 py-10 rounded-2xl border border-slate-200 flex flex-col items-center">
+            <p className="text-slate-800 mb-4 text-3xl font-semibold">Want to share your experience?</p>
             <Link
               to="/leave-review"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 hover:scale-105"
@@ -172,6 +172,7 @@ export default function Reviews() {
               Contact Us
               <span>→</span>
             </Link>
+
           </div>
         </motion.div>
       </div>

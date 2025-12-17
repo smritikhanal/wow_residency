@@ -81,11 +81,11 @@ export const branches = [
     ],
     image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
     gallery: [
-      'https://images.unsplash.com/photo-1505693436371-52665a0100e7?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1522771753035-4850d355d242?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1560185007-c5ca9d2c0141?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80'
     ]
   },
   {

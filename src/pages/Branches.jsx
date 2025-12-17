@@ -93,9 +93,7 @@ export default function Branches() {
                           e.target.src = 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800';
                         }}
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <span className="text-white font-medium">View Details</span>
-                      </div>
+                      {/* Removed 'View Details' overlay on hover */}
                     </div>
                     <div className="p-6 flex flex-col" style={{ minHeight: '180px' }}>
                       <h2 className="text-2xl font-bold text-slate-900 mb-2">{branch.name}</h2>
@@ -103,14 +101,14 @@ export default function Branches() {
                         <MapPin size={18} className="mt-1 text-blue-600 flex-shrink-0" />
                         <span>{branch.landmark}, {branch.location}</span>
                       </div>
-                      <p className="text-slate-600 mb-6 line-clamp-2 text-sm leading-relaxed">
+                      <p className="text-slate-600 mb-2 line-clamp-2 text-sm leading-relaxed">
                         {branch.description}
                       </p>
                     </div>
                   </div>
                   <div className="p-6 pt-0 mt-auto">
                     <div className="flex items-center gap-3">
-                      <span className="text-xs font-semibold bg-slate-100 text-slate-600 px-3 py-1 rounded-full">
+                      <span className="text-xs font-semibold bg-red-100 text-red-600 px-3 py-1 rounded-full">
                         Booking Open
                       </span>
                       <Link to={`${createPageUrl('BranchDetail')}?id=${branch.id}`}>

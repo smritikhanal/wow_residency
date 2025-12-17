@@ -221,14 +221,14 @@ export default function BranchDetail() {
                      <Phone size={20} className="text-slate-400" />
                      <span>+977 985-1414556</span>
                    </div>
-                   <div className="flex items-center gap-3 text-slate-600">
-                     <Calendar size={20} className="text-slate-400" />
+                   <div className="flex items-center gap-3 text-red-600">
+                     <Calendar size={20} className="text-red-400" />
                      <span>Booking Open Now</span>
                    </div>
                 </div>
 
                 <Link to={`${createPageUrl('Contact')}?branch=${branch.name}`}>
-                  <button className="w-full bg-amber-500 hover:bg-amber-600 text-white py-4 rounded-xl font-bold text-lg shadow-lg shadow-amber-500/20 transition-all mb-4">
+                  <button className="w-full bg-red-500 hover:bg-red-600 text-white py-4 rounded-xl font-bold text-lg shadow-lg shadow-red-500/20 transition-all mb-4">
                     Book a Room
                   </button>
                 </Link>
